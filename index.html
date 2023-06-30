@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+  <link href="./css/style.css" rel="stylesheet" type="text/css">
+  <title>CSS Snippet CheatSheet</title>
+</head>
+<body>
+    <!-- Header section -->
+    <header>
+        <h1>CSS Snippet Cheatsheet</h1>
+        <p>Ever have troubble recalling the exact syntax for your favorite CSS code? Give it a permanent home and it to this page! Select any snippet below and it'll automatically select all of the code for you to copy.
+        </p>
+    </header>
+    <!-- main content -->
+    <main>
+        <section class="row">
+            <!-- Row 1 (on desktop) -->
+            <!-- Card 1 -->
+            <div class="card">
+                <figure class="code-card">
+                    <h2 class="card-header">Flexbox Row</h2>
+                    <div class="card-body">
+                        <p>Use these three properties to create a Flexbox row layout.</p>   
+                    </div>
+                    <!-- with the <pre> element, it counts all spaces literally, so proper code indentation cannot be applied in this case -->
+                    <pre>row {display: flex; flex-direction: Row; flex-wrap: wrap;}
+                    </pre> 
+                </figure>
+            </div>
+            <!-- Card 2 -->
+            <div class="card">
+                <figure class="code-card">
+                    <h2 class="card-header">Flexbox Column</h2>
+                    <div class="card-body">
+                        <p>Use this to create a Flexbox column layout.</p>   
+                    </div>
+                    <!-- with the <pre> element, it counts all spaces literally, so proper code indentation cannot be applied in this case -->
+                    <pre>.Column { display: flex; flex-direction: column;}
+                    </pre> 
+                </figure> 
+            </div>
+            <!-- Card 3 -->
+            <div class="card">
+                <figure class="code-card">
+                    <h2 class="card-header">CSS Grid Layout</h2>
+                    <div class="card-body">
+                        <p>Build a 12-column layout CSS Grid</p>
+                    </div>
+                    <!-- with the <pre> element, it counts all spaces literally, so proper code indentation cannot be applied in this case -->
+                    <pre>.grid { 
+                display: grid; 
+                width: 100px; 
+                grid-template-column: repeat (12. 1fr)}
+                    </pre>
+                </figure> 
+            </div>
+            <!-- Row 2 (on desktop) -->
+            <!-- Card 4 -->
+            <div class="card">
+                <figure class="code-card">
+                    <h2 class="card-header">Liear Gradients</h2>
+                    <div class="card-body">
+                        <p>This will create a background linear gradient from to bottom.</p>
+                    </div>
+                    <!-- with the <pre> element, it counts all spaces literally, so proper code indentation cannot be applied in this case -->
+                    <pre>"linear-gradient-background {
+                    background-image: linear-gradient (
+                        rgba (232, 102, 236, 0.3) 0%
+                        rgba (232, 102, 236, 0.6) 100%);}" 
+                    </pre>
+                </figure>
+            </div>
+            <!-- Card 5 -->
+            <div class="card">
+                <figure class="code-card">
+                    <h2 class="card-header">Box Transition Glow</h2>
+                    <div class="card-body">
+                        <p>Use transition and box shadows to glow on hover</p>
+                    </div>
+                    <!-- with the <pre> element, it counts all spaces literally, so proper code indentation cannot be applied in this case -->
+                    <pre>.code card .card-header { border-radius: 8px; transition: all 0.5s ease-in-out;
+                    }
+                    .code-card:hover, .code-card:hover .card-header {
+                        box-shadow: inset 0px 0px 8 px
+                    rgba (232, 102, 236, 1), 0 0 15px
+                    rgba (232, 102, 236, 1);
+                    }
+                    </pre> 
+                </figure> 
+            </div>
+            <!-- Card 6 -->
+            <div class="card">
+                <figure class="code-card">
+                    <h2 class="card-header">Overlay Card with title</h2>
+                    <div class="card-body">
+                        <p>Use position properties and negative margins to raise elements higher than their natural starting point.</p>
+                    </div>
+                    <!-- with the <pre> element, it counts all spaces literally, so proper code indentation cannot be applied in this case -->
+                    <pre>.card-header { Position: relative; margin-top: -20px;}
+                    </pre> 
+                </figure>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h3>Made with <span role="img"
+        aria-label="heart"></span>and CSS</h3>
+    </footer>
+</body>
+</html>
