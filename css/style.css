@@ -59,13 +59,13 @@ section {
 .card {
     flex: 1 1 300px;
     border: 2px dotted whitesmoke;
-    border-radius: 30px 
+    border-radius: 30px; 
     color: var(--accent);
     padding: 0 15px 15px;
     margin: 0 20px 50px;
     box-sizing: border-box;
     display: flex;
-    flex-direction: column
+    flex-direction: column;
     margin-bottom: 40px;
     
 
@@ -166,17 +166,3 @@ pre {
     
   }
   
-  @media only screen and (max-width: 600px){
-    body { 
-      position: static;
-      margin: 20px;
-    
-  }
-  
-}
-  
-@media only screen and (max-width: 600px){
-    body { 
-      position: static;
-      margin: 20px;
-    
